@@ -52,6 +52,7 @@ redirect_from:
 - /engine/tutorials/dockerrepos/
 - /userguide/dockerrepos/
 - /engine/userguide/containers/dockerimages/
+- /getstarted/part6/
 ---
 
 {% include_relative nav.html selected="1" %}
