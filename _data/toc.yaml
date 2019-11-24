@@ -483,7 +483,7 @@ reference:
       title: Use the Docker command line
     - path: /engine/reference/commandline/docker/
       title: docker (base command)
-    - sectiontitle: docker app *
+    - sectiontitle: docker app
       section:
         - path: /engine/reference/commandline/app/
           title: docker app
