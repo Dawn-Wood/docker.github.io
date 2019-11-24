@@ -1,0 +1,21 @@
+command: docker app image
+short: Manage application images
+long: Manage application images
+pname: docker app
+plink: docker_app.yaml
+cname:
+- docker app image inspect
+- docker app image ls
+- docker app image rm
+- docker app image tag
+clink:
+- docker_app_image_inspect.yaml
+- docker_app_image_ls.yaml
+- docker_app_image_rm.yaml
+- docker_app_image_tag.yaml
+deprecated: false
+experimental: false
+experimentalcli: true
+kubernetes: false
+swarm: false
+

@@ -1,7 +1,7 @@
 ---
 datafolder: app
-datafile: docker_app_init
-title: docker app init
+datafile: docker_app_rm
+title: docker app rm
 skip_read_time: true
 ---
 <!--

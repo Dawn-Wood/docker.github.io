@@ -1,0 +1,24 @@
+command: docker app image ls
+aliases: list
+short: List application images
+long: List application images
+usage: docker app image ls
+pname: docker app image
+plink: docker_app_image.yaml
+options:
+- option: quiet
+  shorthand: q
+  value_type: bool
+  default_value: "false"
+  description: Only show numeric IDs
+  deprecated: false
+  experimental: false
+  experimentalcli: false
+  kubernetes: false
+  swarm: false
+deprecated: false
+experimental: false
+experimentalcli: true
+kubernetes: false
+swarm: false
+

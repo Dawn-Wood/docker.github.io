@@ -1,0 +1,13 @@
+command: docker app pull
+short: Pull an application package from a registry
+long: Pull an application package from a registry
+usage: docker app pull NAME:TAG [OPTIONS]
+pname: docker app
+plink: docker_app.yaml
+examples: $ docker app pull docker/app-example:0.1.0
+deprecated: false
+experimental: false
+experimentalcli: true
+kubernetes: false
+swarm: false
+

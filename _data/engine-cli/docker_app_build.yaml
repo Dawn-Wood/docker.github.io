@@ -1,0 +1,88 @@
+command: docker app build
+short: Build service images for the application
+long: Build service images for the application
+usage: docker app build [OPTIONS] [CONTEXT_PATH]
+pname: docker app
+plink: docker_app.yaml
+options:
+- option: build-arg
+  value_type: stringArray
+  default_value: '[]'
+  description: Set build-time variables
+  deprecated: false
+  experimental: false
+  experimentalcli: false
+  kubernetes: false
+  swarm: false
+- option: folder
+  shorthand: f
+  value_type: string
+  description: Docker app folder containing application definition
+  deprecated: false
+  experimental: false
+  experimentalcli: false
+  kubernetes: false
+  swarm: false
+- option: iidfile
+  value_type: string
+  description: Write the app image ID to the file
+  deprecated: false
+  experimental: false
+  experimentalcli: false
+  kubernetes: false
+  swarm: false
+- option: no-cache
+  value_type: bool
+  default_value: "false"
+  description: Do not use cache when building the image
+  deprecated: false
+  experimental: false
+  experimentalcli: false
+  kubernetes: false
+  swarm: false
+- option: progress
+  value_type: string
+  default_value: auto
+  description: |
+    Set type of progress output (auto, plain, tty). Use plain to show container output
+  deprecated: false
+  experimental: false
+  experimentalcli: false
+  kubernetes: false
+  swarm: false
+- option: pull
+  value_type: bool
+  default_value: "false"
+  description: Always attempt to pull a newer version of the image
+  deprecated: false
+  experimental: false
+  experimentalcli: false
+  kubernetes: false
+  swarm: false
+- option: quiet
+  shorthand: q
+  value_type: bool
+  default_value: "false"
+  description: Suppress the build output and print app image ID on success
+  deprecated: false
+  experimental: false
+  experimentalcli: false
+  kubernetes: false
+  swarm: false
+- option: tag
+  shorthand: t
+  value_type: string
+  description: |
+    Application image and optionally a tag in the 'image:tag' format
+  deprecated: false
+  experimental: false
+  experimentalcli: false
+  kubernetes: false
+  swarm: false
+examples: $ docker app build --tag my/app:1.0.0 .
+deprecated: false
+experimental: false
+experimentalcli: true
+kubernetes: false
+swarm: false
+
