@@ -5,11 +5,10 @@ usage: docker app push [APP_NAME] --tag TARGET_REFERENCE [OPTIONS]
 pname: docker app
 plink: docker_app.yaml
 options:
-- option: insecure-registries
-  value_type: stringSlice
-  default_value: '[]'
-  description: |
-    Use HTTP instead of HTTPS when pulling from/pushing to those registries
+- option: all-platforms
+  value_type: bool
+  default_value: "false"
+  description: If present, push all platforms
   deprecated: false
   experimental: false
   experimentalcli: false
@@ -17,9 +16,8 @@ options:
   swarm: false
 - option: platform
   value_type: stringSlice
-  default_value: '[]'
-  description: |
-    For multi-arch service images, only push the specified platforms
+  default_value: '[linux/amd64]'
+  description: For multi-arch service images, push the specified platforms
   deprecated: false
   experimental: false
   experimentalcli: false

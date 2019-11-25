@@ -1,5 +1,5 @@
 ---
-datafolder: app
+datafolder: docker-app
 datafile: docker_app_image_tag
 title: docker app image tag
 skip_read_time: true
