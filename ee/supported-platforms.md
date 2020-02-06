@@ -1,27 +1,12 @@
 ---
-title: Overview
-description: Docker Enterprise product information
-keywords: Docker Enterprise, enterprise, enterprise edition, ee, docker ee, docker enterprise edition, lts, commercial, cs engine, commercially supported
-redirect_from:
-  - /enterprise/supported-platforms/
-  - /cs-engine/
-  - /cs-engine/1.12/
-  - /cs-engine/1.12/upgrade/
-  - /cs-engine/1.13/
-  - /cs-engine/1.13/upgrade/
-green-check: '![yes](/install/images/green-check.svg){: style="height: 14px; margin:auto;"}'
-install-prefix-ee: '/install/linux/docker-ee'
+title: Docker Engine - Enterprise
+description: Docker Engine - Enterprise product information
+keywords: Docker Engine - Enterprise, enterprise, enterprise edition, ee, docker ee, docker enterprise edition, commercially supported
 ---
 
 >{% include enterprise_label_shortform.md %}
 
-Docker Enterprise is designed for enterprise development as well as IT teams who build, share, and run business-critical
-applications at scale in production. Docker Enterprise is an integrated container platform that includes
-Docker Desktop Enterprise, a secure image registry, advanced management control plane, and Docker Engine - Enterprise.
-Docker Engine - Enterprise is a certified and supported container runtime that is also available as a standalone
-solution  to provide enterprises with the most secure container engine in the industry. For more information
-about Docker Enterprise and Docker Engine - Enterprise, including purchasing options,
-see [Docker Enterprise](https://www.docker.com/enterprise-edition/).
+
 
 > Compatibility Matrix
 >

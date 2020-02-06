@@ -1,20 +1,23 @@
 ---
-description: Home page for Docker Enterprise documentation
-keywords: Docker Enterprise, documentation, manual, guide, reference, api, CLI
 title: Docker Enterprise
+description: Home page for Docker Enterprise documentation
+keywords: Docker Enterprise, UCP, DTR, Engine - Enterprise
 ---
 
 >{% include enterprise_label_shortform.md %}
 
-## Docker Enterprise platform
+Docker Enterprise is designed for enterprise development as well as IT teams who build, share, and run business-critical applications at scale in production. Docker Enterprise is an integrated container platform that includes a secure image registry called Docker Trusted Registry (DTR), advanced management with Universal Control Plane (UCP), and Docker Engine - Enterprise.
+Docker Engine - Enterprise is a certified and supported container runtime that is also available as a standalone solution  to provide enterprises with the most secure container engine in the industry. For more information
+about Docker Enterprise and Docker Engine - Enterprise, including purchasing options, see [Docker Enterprise](https://www.docker.com/enterprise-edition/).
 
-The Docker Enterprise platform is the leading container platform for continuous, high-velocity innovation. Docker Enterprise is the only independent container platform that enables developers to seamlessly build and share any application — from legacy to modern — and operators to securely run them anywhere - from hybrid cloud to the edge.
+### Highly available
 
-Docker Enterprise enables deploying highly available workloads using either the Docker Kubernetes Service or Docker Swarm. Docker Enterprise automates many of the tasks that orchestration requires, like provisioning pods, containers, and cluster
-resources. Self-healing components ensure that Docker Enterprise clusters remain highly available.
+Docker Enterprise enables deploying highly available workloads using either Kubernetes or Docker Swarm. Docker Enterprise automates many of the tasks that orchestration requires, like provisioning pods, containers, and cluster
+resources. Self-healing components ensure that Docker Enterprise clusters remain highly available. For more information about Kubernetes, see XX. For more information about Docker Swarm, see XX.
 
-Role-based access control (RBAC) applies to Kubernetes and Swarm orchestrators, and
-communication within the cluster is secured with TLS.
+### Secure
+
+Role-based access control (RBAC) applies to Kubernetes and Swarm orchestrators, and communication within the cluster is secured with TLS.
 [Docker Content Trust](/engine/security/trust/content_trust/) is enforced
 for images on all of the orchestrators.
 
@@ -25,11 +28,11 @@ cluster and applications through a single interface.
 
 ![](images/docker-ee-overview-1.png){: .with-border}
 
-### Docker Kubernetes Service
+### Kubernetes Support
 
-The Docker Kubernetes Service fully supports all Docker Enterprise features, including role-based access control, LDAP/AD integration, image scanning and signing enforcement policies, and security policies.
+The Kubernetes Service fully supports all Docker Enterprise features, including role-based access control, LDAP/AD integration, image scanning and signing enforcement policies, and security policies.
 
-Docker Kubernetes Services features include:
+Supported Kubernetes features in Docker Enterprise are:
 
 - Kubernetes orchestration full feature set
 - CNCF Certified Kubernetes conformance
