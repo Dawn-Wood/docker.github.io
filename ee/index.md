@@ -127,9 +127,7 @@ Windows applications typically require Active Directory authentication in order 
 
 ## Docker Enterprise and the CLI
 
-Docker Enterprise exposes the standard Docker API, so you can continue using the tools
-that you already know, [including the Docker CLI client](./ucp/user-access/cli/),
-to deploy and manage your applications.
+Docker Enterprise exposes the standard Docker API, so you can continue using the tools that you already know, [including the Docker CLI client](./ucp/user-access/cli/), to deploy and manage your applications.
 
 For example, you can use the `docker info` command to check the
 status of a Swarm managed by Docker Enterprise:
