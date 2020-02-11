@@ -1667,7 +1667,7 @@ manuals:
         - path: /ee/ucp/admin/configure/configure-rbac-kube/
           title: Configure native Kubernetes role-based access control
         - path: /ee/ucp/admin/configure/enable-audit-logging/
-          title: Create UCP audit logs
+          title: Audit logging on UCP
         - path: /ee/ucp/admin/configure/enable-saml-authentication/
           title: Enable SAML authentication
         - path: /ee/ucp/admin/configure/integrate-saml/
@@ -1711,7 +1711,7 @@ manuals:
           - path: /ee/ucp/admin/configure/join-nodes/use-a-load-balancer/
             title: Use a load balancer
         - path: /ee/ucp/admin/configure/deploy-route-reflectors/
-          title: Improve network performance with Route Reflectors
+          title: Improve network performance with route reflectors
       - sectiontitle: Monitor and troubleshoot
         section:
         - path: /ee/ucp/admin/monitor-and-troubleshoot/
