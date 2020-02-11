@@ -2,6 +2,8 @@
 title: Docker Enterprise
 description: Home page for Docker Enterprise documentation
 keywords: Docker Enterprise, UCP, DTR, Engine - Enterprise
+redirect_from:
+ - /overview/
 ---
 
 >{% include enterprise_label_shortform.md %}
