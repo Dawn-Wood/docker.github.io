@@ -4075,79 +4075,77 @@ manuals:
           title: Get support
   - sectiontitle: Standards and compliance
     section:
-    - path: /compliance/
+    - path: /ee/compliance/
       title: Docker Enterprise standards and compliance
     - sectiontitle: NIST
       section:
-      - path: /compliance/nist/800_37/
+      - path: /ee/compliance/nist/800_37/
         title: NIST SP 800-37 (RMF)
-      - path: /compliance/nist/800_53/
+      - path: /ee/compliance/nist/800_53/
         title: NIST SP 800-53
-      - path: /compliance/nist/800_190/
+      - path: /ee/compliance/nist/800_190/
         title: NIST SP 800-190
-      - path: /compliance/nist/fips140_2/
+      - path: /ee/compliance/nist/fips140_2/
         title: FIPS 140-2
-      - path: /compliance/nist/nistir_8176/
+      - path: /ee/compliance/nist/nistir_8176/
         title: NISTIR 8176
-      - path: /compliance/nist/itl_october2017/
+      - path: /ee/compliance/nist/itl_october2017/
         title: NIST ITL Bulletin October 2017
     - sectiontitle: OSCAL
       section:
-      - path: /compliance/oscal/
+      - path: /ee/compliance/oscal/
         title: OSCAL compliance guidance
     - sectiontitle: CIS Benchmarks
       section:
-      - path: /compliance/cis/docker_ee/
+      - path: /ee/compliance/cis/docker_ee/
         title: Docker Enterprise Benchmark
-      - path: /compliance/cis/docker_ce/
-        title: Docker Engine - Community Benchmark
-      - path: /compliance/cis/k8s/
+      - path: /ee/compliance/cis/k8s/
         title: Kubernetes Benchmark
-    - path: /compliance/fedramp/
+    - path: /ee/compliance/fedramp/
       title: FedRAMP
-    - path: /compliance/fisma/
+    - path: /ee/compliance/fisma/
       title: FISMA
   - sectiontitle: Compliance control references
     section:
     - sectiontitle: NIST 800-53
       section:
-      - path: /compliance/reference/800-53/
+      - path: /ee/compliance/reference/800-53/
         title: Overview
-      - path: /compliance/reference/800-53/ac/
+      - path: /ee/compliance/reference/800-53/ac/
         title: Access control
-      - path: /compliance/reference/800-53/au/
+      - path: /ee/compliance/reference/800-53/au/
         title: Audit and accountability
-      - path: /compliance/reference/800-53/at/
+      - path: /ee/compliance/reference/800-53/at/
         title: Awareness and training
-      - path: /compliance/reference/800-53/cm/
+      - path: /ee/compliance/reference/800-53/cm/
         title: Configuration management
-      - path: /compliance/reference/800-53/cp/
+      - path: /ee/compliance/reference/800-53/cp/
         title: Contingency planning
-      - path: /compliance/reference/800-53/ia/
+      - path: /ee/compliance/reference/800-53/ia/
         title: Identification and authentication
-      - path: /compliance/reference/800-53/ir/
+      - path: /ee/compliance/reference/800-53/ir/
         title: Incident response
-      - path: /compliance/reference/800-53/ma/
+      - path: /ee/compliance/reference/800-53/ma/
         title: Maintenance
-      - path: /compliance/reference/800-53/mp/
+      - path: /ee/compliance/reference/800-53/mp/
         title: Media protection
-      - path: /compliance/reference/800-53/ps/
+      - path: /ee/compliance/reference/800-53/ps/
         title: Personnel security
-      - path: /compliance/reference/800-53/pe/
+      - path: /ee/compliance/reference/800-53/pe/
         title: Physical and environmental protection
-      - path: /compliance/reference/800-53/pl/
+      - path: /ee/compliance/reference/800-53/pl/
         title: Planning
-      - path: /compliance/reference/800-53/pm/
+      - path: /ee/compliance/reference/800-53/pm/
         title: Program management
-      - path: /compliance/reference/800-53/ra/
+      - path: /ee/compliance/reference/800-53/ra/
         title: Risk assessment
-      - path: /compliance/reference/800-53/ca/
+      - path: /ee/compliance/reference/800-53/ca/
         title: Security assessment and authorization
-      - path: /compliance/reference/800-53/sc/
+      - path: /ee/compliance/reference/800-53/sc/
         title: System and communications protection
-      - path: /compliance/reference/800-53/si/
+      - path: /ee/compliance/reference/800-53/si/
         title: System and information integrity
-      - path: /compliance/reference/800-53/sa/
+      - path: /ee/compliance/reference/800-53/sa/
         title: System and services acquisition
 
 
